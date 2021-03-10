@@ -22,5 +22,5 @@ Running BERT-base from Huggingface library is not printing matmul primitive verb
 Screenshot of DNNL verbose log for BERT-base evaluating GLUE STS-B. As you can see, the matmul primitive is not printing verbose log, though it gets executed.   
 ![Alt text](screenshot_BERT-base.png?raw=true "BERT-base DNNL debug log")
 
-But running the same for ALBERT-base-v2 evaluating GLUE STS-B does show the matmul operations.
+But running the same for ALBERT-base-v2 evaluating GLUE STS-B does show the matmul operations (line 254, 258, etc.)
 ![Alt text](screenshot_ALBERT-base-v2.png?raw=true "ALBERT-base-v2 DNNL debug log")
